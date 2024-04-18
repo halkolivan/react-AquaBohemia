@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import CartOrder from "src/components/pages/CartOrder.jsx";
@@ -8,6 +9,7 @@ import {
   deleteCart,
   addCart,
 } from "../store/slices/cart";
+import { addOrder } from "../store/slices/order";
 
 //import style
 import "src/assets/styles/pages/Cart.scss";
@@ -31,7 +33,9 @@ export default function Cart() {
       </div>
       <div className="comment-title">
         <span>{t("yoursProducts")}</span>
-        <span>{t("pay")}</span>
+        <NavLink to="/order">
+          <span>{t("pay")}</span>
+        </NavLink>
       </div>
       <div className="cart-products">
         <div className="products">
@@ -43,6 +47,7 @@ export default function Cart() {
                   handleIncrement={() => dispatch(addCart(item))}
                   handleDecrement={() => dispatch(decrement(item.id))}
                   deleteFromCart={() => dispatch(deleteCart(item.id))}
+                  addToOrder={() => dispatch(addOrder(item))}
                 />
               </div>
             ))

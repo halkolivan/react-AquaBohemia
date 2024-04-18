@@ -1,42 +1,42 @@
-import axios from 'axios'
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
+import axios from "axios";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const getCartProducts = createAsyncThunk(
-  'cartRequest/getCartProducts',
+  "cartRequest/getCartProducts",
   async (_, { rejectedWithValue }) => {
     try {
-      const response = await axios.get(`/mock/productsData.json`)
-      return response.data
+      const response = await axios.get(`/mock/productsData.json`);
+      return response.data;
     } catch (error) {
-      console.log(error)
-      return rejectedWithValue(error.response.data)
+      console.log(error);
+      return rejectedWithValue(error.response.data);
     }
   }
-)
+);
 
 const loadState = () => {
   try {
-    const serializedState = localStorage.getItem('cart')
+    const serializedState = localStorage.getItem("cart");
     if (serializedState === null) {
-      return undefined
+      return undefined;
     }
-    return JSON.parse(serializedState)
+    return JSON.parse(serializedState);
   } catch (err) {
-    return undefined
+    return undefined;
   }
-}
+};
 
-const saveState = state => {
+const saveState = (state) => {
   try {
-    const serializedState = JSON.stringify(state)
-    localStorage.setItem('cart', serializedState)
-  } catch {
-    // игнорировать ошибки
+    const serializedState = JSON.stringify(state);
+    localStorage.setItem("cart", serializedState);
+  } catch (error) {
+    console.log("Error save", error);
   }
-}
+};
 
 const cart = createSlice({
-  name: 'cart',
+  name: "cart",
   initialState: loadState() || {
     value: 0,
     count: 0,
@@ -45,42 +45,41 @@ const cart = createSlice({
 
   reducers: {
     decrement(state, { payload }) {
-      let myCart = state.cart ? Array.from(state.cart) : []
-      const currentItem = myCart.findIndex(item => item.id === payload)
+      let myCart = state.cart ? Array.from(state.cart) : [];
+      const currentItem = myCart.findIndex((item) => item.id === payload);
 
       if (myCart[currentItem].count === 1) {
-        myCart = myCart.filter(item => item.id !== payload)
+        myCart = myCart.filter((item) => item.id !== payload);
       } else {
-        myCart[currentItem].count -= 1
+        myCart[currentItem].count -= 1;
       }
 
-      state.cart = myCart
-      saveState(state)
+      state.cart = myCart;
+      saveState(state);
     },
 
     addCart(state, { payload }) {
-      const myCart = state.cart ? Array.from(state.cart) : []
-      const currentItem = myCart.findIndex(item => item.id === payload.id)
+      const myCart = state.cart ? Array.from(state.cart) : [];
+      const currentItem = myCart.findIndex((item) => item.id === payload.id);
 
       if (currentItem !== -1) {
-        myCart[currentItem].count += 1
+        myCart[currentItem].count += 1;
       } else {
-        // myCart.push({ id: payload.id, value: payload.value || 0, count: 1 });
-        myCart.push({ ...payload, count: 1 })
-        state.count = myCart.reduce((acc, item) => acc + item.count, 0)
+        myCart.push({ ...payload, count: 1 });
+        state.count = myCart.reduce((acc, item) => acc + item.count, 0);
       }
 
-      state.cart = myCart
-      saveState(state)
-      console.log(state.cart)
+      state.cart = myCart;
+      saveState(state);
+      console.log(state.cart);
     },
     deleteCart(state, action) {
-      state.cart = state.cart.filter(item => item.id !== action.payload)
-      state.count = state.cart.reduce((acc, item) => acc + item.count, 0)
-      saveState(state)
+      state.cart = state.cart.filter((item) => item.id !== action.payload);
+      state.count = state.cart.reduce((acc, item) => acc + item.count, 0);
+      saveState(state);
     },
   },
-})
+});
 
-export const { decrement, addCart, deleteCart } = cart.actions
-export default cart.reducer
+export const { decrement, addCart, deleteCart } = cart.actions;
+export default cart.reducer;

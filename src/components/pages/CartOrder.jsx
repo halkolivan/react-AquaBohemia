@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import i18n from "../../i18n";
 import { useTranslation } from "react-i18next";
-import { useSelector } from "react-redux";
+
 
 // Import images
 import cartDelete from "src/assets/images/cartDelete.png";
@@ -12,6 +12,7 @@ export default function CartOrder({
   handleIncrement,
   handleDecrement,
   deleteFromCart,
+  addToOrder,
 }) {
   const { t } = useTranslation();
 
@@ -33,7 +34,9 @@ export default function CartOrder({
           >
             <img src={cartDelete} alt="none image" />
           </button>
-          <button className="buy">{t("buy")}</button>
+          <button className="buy" onClick={() => addToOrder(products)}>
+            {t("buy")}
+          </button>
         </div>
         <div className="product-info-param">
           <div className="product-stars">

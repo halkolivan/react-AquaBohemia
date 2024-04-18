@@ -1,7 +1,4 @@
 import { useState, useEffect } from "react";
-
-
-
 import { getCatalogProducts } from "../store/slices/catalog";
 import { addCart } from "../store/slices/cart";
 import { useDispatch, useSelector } from "react-redux";

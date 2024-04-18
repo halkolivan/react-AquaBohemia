@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import i18n from "../i18n";
 import { NavLink } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
@@ -9,15 +10,14 @@ import { useDispatch, useSelector } from "react-redux";
 import ProductOrder from "src/components/pages/ProductOrder";
 
 //Import Styles
-import "src/assets/styles/pages/OrderProduct.scss";
+import "src/assets/styles/pages/Order.scss";
 
 // Import images
 import Plus from "src/assets/images/plus.png";
 
-export default function OrderProduct() {
+export default function Order() {
   const { t } = useTranslation();
   const onChange = () => {};
-  const [prodOrder, setProdOrder] = useState(undefined);
   const orderRequest = useSelector((state) => state.buyOrder.orderList);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -92,7 +92,7 @@ export default function OrderProduct() {
         </form>
       </div>
       <div className="Vz">
-        <div>{t("yourOrder")}</div>
+        <div>{t("yoursProducts")}</div>
         <div>
           <img src={Plus} alt="none img" />
           <NavLink to="/catalog">

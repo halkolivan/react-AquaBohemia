@@ -23,25 +23,30 @@
       font-weight: 700;
       line-height: 130%;
     }
-    span:nth-of-type(2) {
+    a {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 3px 3px 3px 3px;
-      border: 1px solid #000000;
-      cursor: pointer;
-
-      color: #39414d;
-      font-family: Roboto Condensed, sans-serif;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 130%;
+      position: relative;
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 3px 3px 3px;
+        border: 1px solid #000000;
+        cursor: pointer;
+  
+        color: #39414d;
+        font-family: Roboto Condensed, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+      }
+      span:hover {
+        color: #ff0000;
+        background: #15ff00;
+      }
     }
-    span:nth-of-type(2):hover {
-      color: #ff0000;
-      background: #15ff00;
-    }
+    
   }
   .cart-products {
     display: flex;

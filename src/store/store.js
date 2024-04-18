@@ -13,6 +13,6 @@ export const store = configureStore({
     new: New,
     popular: Popular,
     cart: Cart,
-    order: Order,
+    buyOrder: Order,
   },
 });

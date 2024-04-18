@@ -14,7 +14,7 @@ import Cart from "./pages/Cart";
 import ProductSingle from "./pages/ProductSingle";
 import ProductSingleCatalog from "./pages/ProductSingleCatalog";
 import ProductSingleNew from "./pages/ProductSingleNew";
-import OrderProduct from "./pages/OrderProduct";
+import Order from "./pages/Order";
 
 export default function Router() {
   const routing = createBrowserRouter([
@@ -68,7 +68,7 @@ export default function Router() {
 
         {
           path: "/order",
-          element: <OrderProduct />,
+          element: <Order />,
         },
 
         {
