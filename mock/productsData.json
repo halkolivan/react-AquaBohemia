@@ -1,0 +1,944 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bilinska Jaterni",
+      "type": "Негазированный",
+      "rank": 10,
+      "imageBase": "/images/MountRose.webp",
+      "imageBase2": "/images/AB 1.png",
+      "imageBottle": "/images/BilinskaJaterni.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundRose",
+      "border": "borderLeft"
+    },
+
+    {
+      "id": 2,
+      "name": "Bilinska Zaludecni",
+      "type": "Негазированный",
+      "rank": 8,
+      "imageBase": "/images/MountGreen2.webp",
+      "imageBase2": "/images/AB 2.png",
+      "imageBottle": "/images/BilinskaZaludecni.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundGreen"
+    },
+
+    {
+      "id": 3,
+      "name": "Bilinska Kyselka",
+      "type": "Негазированный",
+      "rank": 9,
+      "imageBase": "/images/MountGreen.webp",
+      "imageBase2": "/images/AB 3.png",
+      "imageBottle": "/images/BilinskaKiselka.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundBlue"
+    },
+
+    {
+      "id": 4,
+      "name": "Zajecicka Horka",
+      "type": "Негазированный",
+      "rank": 6,
+      "imageBase": "/images/MountBrown2.webp",
+      "imageBase2": "/images/AB 1.png",
+      "imageFlower": "/images/Flower.webp",
+      "imageBottle": "/images/Horka.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundRose",
+      "size": "sizeBottle"
+    },
+
+    {
+      "id": 5,
+      "name": "Vincentka",
+      "type": "Негазированный",
+      "rank": 7,
+      "imageBase": "/images/MountBrown.webp",
+      "imageBase2": "/images/AB 5.png",
+      "imageBottle": "/images/Vincentka.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundBrown",
+      "border": "borderRight"
+    }
+  ],
+  "productsNew": [
+    {
+      "id": 1,
+      "nameNew": "Aqua Maria",
+      "rank": 9,
+      "imageBase2": "/images/AB 1.png",
+      "imageProduct": "/images/Aqua maria-3big.png",
+      "ru": {
+        "type": "Газированная",
+        "location": "Месторождение:",
+        "descriptionNew": "Лишний вес, дискинезия желчевыводящих путей, хронический холецистит, запор, СРК с запором, дюбаж, атеросклероз и ожирение ...",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "type": "Carbogazoase",
+        "location": "Depozitul:",
+        "descriptionNew": "Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate ...",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundGrey"
+    },
+
+    {
+      "id": 2,
+      "nameNew": "Aqua Maria",
+      "rank": 7,
+      "imageBase2": "/images/AB 3.png",
+      "imageProduct": "/images/AquaMaria.webp",
+      "ru": {
+        "type": "Без газа",
+        "location": "Месторождение:",
+        "descriptionNew": "Лишний вес, дискинезия желчевыводящих путей, хронический холецистит, запор, СРК с запором, дюбаж, атеросклероз и ожирение ...",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "type": "Non-carbogazoase",
+        "location": "Depozitul:",
+        "descriptionNew": "Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate ...",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundGrey"
+    },
+
+    {
+      "id": 3,
+      "nameNew": "Rudolfuv",
+      "rank": 6,
+      "imageBase2": "/images/AB 2.png",
+      "imageProduct": "/images/Rudolfuv.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionNew": "Лишний вес, дискинезия желчевыводящих путей, хронический холецистит, запор, СРК с запором, дюбаж, атеросклероз и ожирение ...",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionNew": "Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate ...",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundGreen",
+      "size": "sizeBottle"
+    },
+
+    {
+      "id": 4,
+      "nameNew": "Bilinska Kyselka 0.5",
+      "rank": 10,
+      "imageBase2": "/images/AB 3.png",
+      "imageProduct": "/images/BilinskaKiselka05.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "descriptionNew": "Лишний вес, дискинезия желчевыводящих путей, хронический холецистит, запор, СРК с запором, дюбаж, атеросклероз и ожирение ...",
+        "descriptionHome": "Анемия, малокровие, состояние после операций, Подагра, Дефицит железа и остеопороз, Состояние после хирургических операций на мочевом",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "descriptionNew": "Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate ...",
+        "descriptionHome": "Anemie, anemie, afecțiune după operație, gută, deficit de fier și osteoporoză, afecțiune după intervenția chirurgicală a tractului urinar",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      },
+      "background": "backgroundBlue",
+      "border": "borderRight"
+    }
+  ],
+  "productsCatalog": [
+    {
+      "id": 1,
+      "name": "Bilinska Jaterni",
+      "rank": 8,
+      "background": "backgroundRose",
+      "imageBottle": "/images/BilinskaJaterni.webp",
+      "imageBase": "/src/assets/images/mount 5.png",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bilinska Zaludecni",
+      "rank": 9,
+      "background": "backgroundGreen",
+      "imageBottle": "/images/BilinskaZaludecni.webp",
+      "imageBase": "/images/MountGreen2.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bilinska Kyselka",
+      "rank": 10,
+      "background": "backgroundBlue",
+      "imageBottle": "/images/BilinskaKiselka.webp",
+      "imageBase": "/src/assets/images/mount 6.png",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bilinska Kyselka 0.5",
+      "rank": 5,
+      "background": "backgroundBlue",
+      "imageBottle": "/images/BilinskaKiselka05.webp",
+      "imageBase": "/src/assets/images/mount 6.png",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Rudolfuv Pramen",
+      "rank": 10,
+      "background": "backgroundGreen",
+      "imageBottle": "/images/Rudolfuv.webp",
+      "imageBase": "/images/MountGreen2.webp",
+      "size": "sizeBottle",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Zajecicka Horka",
+      "rank": 8,
+      "background": "backgroundRose",
+      "imageBottle": "/images/Horka.webp",
+      "imageBase": "/images/MountBrown2.webp",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Aqua Maria",
+      "rank": 10,
+      "background": "backgroundGrey",
+      "imageBottle": "/images/AquaMaria.webp",
+      "imageBase": "/src/assets/images/mount 6.webp",
+      "position": "position",
+      "ru": {
+        "location": "Месторождение:",
+        "type": "Без газа",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "type": "Non-carbogazoase",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Aqua Maria",
+      "rank": 9,
+      "background": "backgroundGrey",
+      "imageBottle": "/images/Aqua maria-3big.png",
+      "imageBase": "/src/assets/images/mount 6a.png",
+      "position": "position",
+      "ru": {
+        "location": "Месторождение:",
+        "type": "Газированная",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "type": "Carbogazoase",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Vincentka",
+      "rank": 9,
+      "background": "backgroundBrown",
+      "imageBottle": "/images/Vincentka.webp",
+      "imageBase": "/images/mount 1.png",
+      "ru": {
+        "location": "Месторождение:",
+        "description": "Лишний вес, Дискинезия желчевыводящих путей, хронический холецистит, Запор, СРК с запором, Дюбаж, Атеросклероз и ожирение...",
+        "descriptionAboutProduct": {
+          "backStory": "минеральная вода чешского курорта Марианские Лазни. Эта столовая вода с низкой минерализацией – лучшее, что создала природа для поддержания водного баланса вашего организма. Марианские Лазни, более раннее название - Мариенбад, был назван в честь источника Марии, открытого более четырехсот лет назад. Это место, одаренное лечебными источниками минеральной воды и восхитительным природным ландшафтом - жемчужина курортного треугольника Чехии, в который входят Карловы Вары. Находясь в глубинных недрах, вода проходит все стадии насыщения полезными минералами, солями и газами, чтобы потом щедро одарить нас своей силой. Каждый глоток этой воды наполнен живой природной энергией, которую невозможно получить из искусственных аналогов.",
+          "field": "Чистейший Источник Марии бьет из скважины глубиной 60,4 м, находящейся в нетронутом цивилизацией природном оазисе. Высокотехнологичный розлив гарантирует полное отсутствие примесей с других горизонтов и исключительную чистоту природной воды. Первый контакт воды с миром происходит при вскрытии бутылки.",
+          "taste": "Вкус",
+          "tasteDescript": "Освежающий, прекрасно утоляет жажду.",
+          "totalStructur": "Общий состав",
+          "generalCompos": "Вода минеральная, питьевая, природная, столовая, с природной газацией (негазированная).",
+          "exp": " Срок годности в месяцах ",
+          "expDescript": " 12 месяцев ",
+          "saved": "Условия хранения",
+          "savedDescript": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива.",
+          "storageConditions": "Минеральную воду следует хранить в плотно закрытой бутылке, в защищенном от прямых солнечных лучей месте, при температуре от +5 С до +25 С. Срок годности 1 год с даты розлива."
+        }
+      },
+      "ro": {
+        "location": "Depozitul:",
+        "description": " Excesul de greutate, dischinezie biliară, colecistită cronică, Constipație, IBS cu constipație, Dubage, ateroscleroză și obezitate...",
+        "descriptionAboutProduct": {
+          "backStory": "apa minerală a stațiunii Cehe Marianske Lazne. Această apă de masă cu mineralizare scăzută este cea mai bună pe care natura a creat-o pentru a menține echilibrul de apă al corpului tău. Marianske Lazne, un nume anterior-Marienbad, a fost numit după sursa Mariei, descoperită acum mai bine de patru sute de ani. Acest loc, dotat cu izvoare vindecătoare de apă minerală și un peisaj natural încântător, este perla triunghiului spa al Republicii Cehe, care include Karlovy Vary. Fiind în adâncurile adâncurilor, apa trece prin toate etapele de saturație cu minerale utile, săruri și gaze, pentru a ne înzestra generos cu puterea sa. Fiecare înghițitură din această apă este umplută cu energie naturală vie, care nu poate fi obținută din analogi artificiali.",
+          "field": "Cel mai pur izvor al Mariei izvorăște dintr-o fântână cu o adâncime de 60,4 m, situată într-o oază naturală neatinsă de civilizație. Îmbutelierea de înaltă tehnologie garantează absența completă a impurităților din alte orizonturi și puritatea excepțională a apei naturale. Primul contact al apei cu lumea are loc atunci când sticla este deschisă.",
+          "taste": "Gustos",
+          "tasteDescript": "Răcoritoare, potolește perfect setea.",
+          "totalStructur": "Compoziție generală",
+          "generalCompos": "Apă minerală, potabilă, naturală, de cantină, cu carbonatare naturală (necarbonată).",
+          "exp": "Perioada de valabilitate în luni",
+          "expDescript": " 12 luni ",
+          "saved": "Condiții de depozitare",
+          "savedDescript": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii.",
+          "storageConditions": "Apa minerală trebuie depozitată într-o sticlă bine închisă, într-un loc protejat de lumina directă a soarelui, la o temperatură cuprinsă între +5 C și +25 C. Perioada de valabilitate este de 1 an de la data îmbutelierii."
+        }
+      }
+    }
+  ],
+  "newsProducts": [
+    {
+      "id": 1,
+      "mainImage": "/src/assets/images/StreetBrown.webp",
+      "backgroundImage": "/src/assets/images/Gaus 1.webp",
+      "newsBy": "Aqua Bohemia",
+      "ru": {
+        "post": "ZAJECICKA HORKA - №1 в мире по содержанию природного магния.",
+        "descriptionNews": "ZAJECICKA HORKA - №1 в мире по содержанию природного магния.",
+        "dataDay": "28",
+        "dataMonth": "дек",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "post": "ZAJECICKA HORKA este numărul 1 în lume în ceea ce privește conținutul natural de magneziu.",
+        "descriptionNews": "ZAJECICKA HORKA este numărul 1 în lume în ceea ce privește conținutul natural de magneziu.",
+        "dataDay": "28",
+        "dataMonth": "dec",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 2,
+      "mainImage": "/src/assets/images/StreetBlue.webp",
+      "backgroundImage": "/src/assets/images/Gaus 1.webp",
+      "newsBy": "Aqua Bohemia",
+      "ru": {
+        "descriptionNews": "Bilinska kyselka - Зачем? Когда? Как?",
+        "dataDay": "27",
+        "dataMonth": "дек",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "descriptionNews": "Bilinska kyselka - de ce? Când? Cum?",
+        "dataDay": "27",
+        "dataMonth": "dec",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 3,
+      "mainImage": "/src/assets/images/street-colors.webp",
+      "backgroundImage": "/src/assets/images/Gaus 1.webp",
+      "newsBy": "Aqua Bohemia",
+      "ru": {
+        "descriptionNews": "Лечебные воды Чехии во время беременности.",
+        "dataDay": "26",
+        "dataMonth": "дек",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "descriptionNews": "Apele medicinale ale Republicii Cehe în timpul sarcinii.",
+        "dataDay": "26",
+        "dataMonth": "dec",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 4,
+      "mainImage": "/src/assets/images/StreetFiolet.webp",
+      "backgroundImage": "/src/assets/images/Gaus 1.webp",
+      "newsBy": "Aqua Bohemia",
+      "ru": {
+        "descriptionNews": "Лечение и реабилитация COVID-19 Чешскими минеральными водами.",
+        "dataDay": "25",
+        "dataMonth": "дек",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "descriptionNews": "Tratamentul și reabilitarea COVID-19 cu ape minerale Cehe.",
+        "dataDay": "25",
+        "dataMonth": "dec",
+        "dataYear": "21 an."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "ru": {
+        "post": "ZAJECICKA HORKA - №1 в мире по содержанию природного магния.",
+        "dataDay": "25",
+        "dataMonth": "декабря",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "post": "ZAJECICKA HORKA este numărul 1 în lume în ceea ce privește conținutul natural de magneziu.",
+        "dataDay": "25",
+        "dataMonth": "decembrie",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 2,
+      "ru": {
+        "post": "Bilinska kyselka - Зачем? Когда? Как?",
+        "dataDay": "25",
+        "dataMonth": "декабря",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "post": "Bilinska kyselka - Pentru ce? Când? Cum?",
+        "dataDay": "25",
+        "dataMonth": "decembrie",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 3,
+      "ru": {
+        "post": "Лечебные воды Чехии во время беременности.",
+        "dataDay": "25",
+        "dataMonth": "декабря",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "post": "Apele medicinale ale Republicii Cehe în timpul sarcinii.",
+        "dataDay": "25",
+        "dataMonth": "decembrie",
+        "dataYear": "21 an."
+      }
+    },
+    {
+      "id": 4,
+      "ru": {
+        "post": "Лечение и реабилитация COVID-19 Чешскими минеральными водами.",
+        "dataDay": "25",
+        "dataMonth": "декабря",
+        "dataYear": "21 г."
+      },
+      "ro": {
+        "post": "Tratamentul și reabilitarea COVID-19 cu ape minerale Cehe.",
+        "dataDay": "25",
+        "dataMonth": "decembrie",
+        "dataYear": "21 an."
+      }
+    }
+  ]
+}
