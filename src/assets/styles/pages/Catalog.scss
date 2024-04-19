@@ -119,16 +119,18 @@
         display: flex;
         bottom: 5px;
         right: 5px;
-        background: #ccab4f;
-        border: 2px solid #349945;
+        background: #d3d3d3;
+        border: 2px solid #000000;
         img {
           width: 27px;
           height: 27px;
+          opacity: 0.5;
           cursor: pointer;
           transition: all 0.3s ease;
           transform: scale(1);
         }
         img:hover {
+          opacity: 1;
           transform: scale(1.1);
         }
       }

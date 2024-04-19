@@ -2,10 +2,11 @@ import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
 import { NavLink } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
-import { useState } from "react";
 import { useEffect } from "react";
 import { getOrderProducts } from "../store/slices/order";
 import { deleteOrder } from "../store/slices/order";
+import { addOrder } from "../store/slices/order";
+import { decrease } from "../store/slices/order";
 import { useDispatch, useSelector } from "react-redux";
 import ProductOrder from "src/components/pages/ProductOrder";
 
@@ -19,6 +20,7 @@ export default function Order() {
   const { t } = useTranslation();
   const onChange = () => {};
   const orderRequest = useSelector((state) => state.buyOrder.orderList);
+  const countRequest = useSelector((state) => state.buyOrder.count);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getOrderProducts());
@@ -91,8 +93,10 @@ export default function Order() {
           </div>
         </form>
       </div>
+      
       <div className="Vz">
         <div>{t("yoursProducts")}</div>
+        <span className="count">{countRequest}</span>
         <div>
           <img src={Plus} alt="none img" />
           <NavLink to="/catalog">
@@ -104,7 +108,12 @@ export default function Order() {
         {orderRequest ? (
           orderRequest.map((item) => (
             <div key={item.id}>
-              <ProductOrder products={item} />
+              <ProductOrder
+                products={item}
+                delOrder={() => dispatch(deleteOrder(item.id))}
+                increase={() => dispatch(addOrder(item))}
+                decrease={() => dispatch(decrease(item.id))}
+              />
             </div>
           ))
         ) : (

@@ -52,6 +52,7 @@ const cart = createSlice({
         myCart = myCart.filter((item) => item.id !== payload);
       } else {
         myCart[currentItem].count -= 1;
+        state.count = myCart.reduce((acc, item) => acc + item.count, 0);
       }
 
       state.cart = myCart;
@@ -66,9 +67,9 @@ const cart = createSlice({
         myCart[currentItem].count += 1;
       } else {
         myCart.push({ ...payload, count: 1 });
-        state.count = myCart.reduce((acc, item) => acc + item.count, 0);
+        
       }
-
+      state.count = myCart.reduce((acc, item) => acc + item.count, 0);
       state.cart = myCart;
       saveState(state);
       console.log(state.cart);

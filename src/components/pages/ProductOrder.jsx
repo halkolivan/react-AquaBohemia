@@ -5,9 +5,9 @@ import { useTranslation } from "react-i18next";
 
 //Import images
 import Star from "src/assets/images/Star.png";
-import cartDelete from "src/assets/images/cartDelete.png";
+import cartDelete from "src/assets/images/cart4.png";
 
-export default function ProductOrder({ products }) {
+export default function ProductOrder({ products, delOrder, increase, decrease }) {
   const [t] = useTranslation();
   return (
     <div>
@@ -23,7 +23,7 @@ export default function ProductOrder({ products }) {
           <img src={products.imageBase} alt="none image" />
           <button
             className="base-image"
-            onClick={() => deleteFromCart(products)}
+            onClick={() => delOrder(products)}
           >
             <img src={cartDelete} alt="none image" />
           </button>
@@ -43,11 +43,11 @@ export default function ProductOrder({ products }) {
         </div>
         <div className="count">
           <p>{t("count")}</p>
-          <button className="increace" >
+          <button className="increace" onClick={increase}>
             +
           </button>
           <span>{products.count}</span>
-          <button className="decreace" >
+          <button className="decreace" onClick={decrease}>
             -
           </button>
         </div>

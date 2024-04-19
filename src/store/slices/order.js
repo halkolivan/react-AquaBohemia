@@ -43,22 +43,35 @@ const orderSlice = createSlice({
   },
   reducers: {
     addOrder(state, { payload }) {
-      const myOrder = state.orderList ? [...state.orderList] : [];
+      const myOrder = state.orderList ? Array.from(state.orderList) : [];
       const currentOrderProduct = myOrder.findIndex(
         (item) => item.id === payload.id
       );
-      
 
       if (currentOrderProduct !== -1) {
         myOrder[currentOrderProduct].count += 1;
       } else {
         myOrder.push({ ...payload, count: 1 });
+      }
+      state.count = myOrder.reduce((acc, item) => acc + item.count, 0);
+      state.orderList = myOrder;
+      console.log(state.orderList);
+      saveState(state);
+    },
+
+    decrease(state, { payload }) {
+      let myOrder = state.orderList ? Array.from(state.orderList) : [];
+      const currentItem = myOrder.findIndex((item) => item.id === payload);
+
+      if (myOrder[currentItem].count === 1) {
+        myOrder = myOrder.filter((item) => item.id !== payload);
+      } else {
+        myOrder[currentItem].count -= 1;
         state.count = myOrder.reduce((acc, item) => acc + item.count, 0);
       }
 
-      saveState(state);
       state.orderList = myOrder;
-      console.log(state.orderList);
+      saveState(state);
     },
 
     deleteOrder(state, action) {
@@ -71,5 +84,5 @@ const orderSlice = createSlice({
   },
 });
 
-export const { addOrder, deleteOrder } = orderSlice.actions;
+export const { addOrder, deleteOrder, decrease } = orderSlice.actions;
 export default orderSlice.reducer;

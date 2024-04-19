@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 
 // Import images
-import cartDelete from "src/assets/images/cartDelete.png";
+import cartDelete from "src/assets/images/cart4.png";
 import Star from "src/assets/images/Star.png";
 
 export default function CartOrder({

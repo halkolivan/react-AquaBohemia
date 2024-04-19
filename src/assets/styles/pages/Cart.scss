@@ -33,7 +33,7 @@
         padding: 3px 3px 3px 3px;
         border: 1px solid #000000;
         cursor: pointer;
-  
+
         color: #39414d;
         font-family: Roboto Condensed, sans-serif;
         font-size: 18px;
@@ -46,7 +46,6 @@
         background: #15ff00;
       }
     }
-    
   }
   .cart-products {
     display: flex;
@@ -190,6 +189,9 @@
 
         cursor: pointer;
       }
+      .buy:hover {
+        background: #6cd862;
+      }
 
       .base-image {
         display: flex;
@@ -199,11 +201,18 @@
         width: 30px;
         height: 30px;
         border: 2px solid #111925;
-        background: #c4d33b;
+        background: #d4d4d4;
         img {
           cursor: pointer;
           width: 30px;
           height: 30px;
+          opacity: 0.5;
+          transition: all 0.3s ease;
+          transform: scale(1);
+        }
+        img:hover {
+          opacity: 1;
+          transform: scale(1.1);
         }
       }
 
