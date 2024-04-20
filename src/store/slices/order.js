@@ -78,7 +78,10 @@ const orderSlice = createSlice({
       state.orderList = state.orderList.filter(
         (item) => item.id !== action.payload
       );
-      state.count = state.orderList.reduce((acc, item) => acc + item.count, 0);
+      state.count =
+        state.orderList.length > 0
+          ? state.orderList.reduce((acc, item) => acc + item.count, 0)
+          : 0;
       saveState(state);
     },
   },
